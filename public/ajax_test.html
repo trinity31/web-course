@@ -42,7 +42,7 @@
 		alert(data);
 	});*/
 	$.ajax({
-		url:"./test.html"
+		url:__dirname + "public/test.html"
 	}).done({function(data) {
 		$("h1").html(data);
 	});
