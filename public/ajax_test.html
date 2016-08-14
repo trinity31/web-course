@@ -38,7 +38,12 @@
 <button id="fadeOut">Fade Out</button>
 <button id="fadeIn">Fade In</button> -->
 <script>
-	$.get("test.html", function(data) {
+/*	$.get("test.html", function(data) {
+		alert(data);
+	});*/
+	$.ajax({
+		url:"test.html"
+	}).done({function(data) {
 		alert(data);
 	});
 /*	$("#circle").click(function() {
