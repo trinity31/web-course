@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+ <head>
+ <title>Learning jQuery</title>
+
+ <meta charset="utf-8" />
+ <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+ <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<style type="text/css">
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+}
+
+#menubar {
+	width: 100%;
+	height: 40px;
+	background-color: #e0e0e0;
+	border-bottom: 1px solid grey;
+}
+
+#logo {
+	padding: 5px 0 0 20px;
+	font-weight: bold;
+	font-size: 120%;
+	float:left;
+}
+
+#buttonDiv {
+	float: right;
+	padding: 5px 10px 0 0;
+}
+
+#runButton {
+	font-size:120%;
+}
+
+#toggles {
+	width: 200px;
+	margin:0 auto;
+	list-style: none;
+	border: 1px solid grey;
+	border-radius: 3px;
+	height: 27px;
+	padding: 0;
+	position: relative;;
+	top:5px;
+}
+
+#toggles li {
+	float: left;
+	padding: 5px 7px;
+}
+</style>
+ </head>
+ <body>
+<div id="wrapper">
+	<div id="menubar">
+		<div id="logo">
+			CodePlayer
+		</div>
+		<div id="buttonDiv">
+			<button id="runButton">
+				Run
+			</button>
+		</div>
+		<ul id="toggles">
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>JS</li>
+			<li style = "border:none">Result</li>
+		</ul>
+	</div>
+<div id="main">
+<div id="code_html">
+</div>
+<div id="code_css">
+</div>
+<div id="code_js">
+</div>
+</div>
+</div>
+<script>
+
+</script>
+ </body>
